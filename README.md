@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 ----
 
-## How run this project?
+## To run this project
 - To install `npm i vite@lates`
 - To run `npm run dev`
 
