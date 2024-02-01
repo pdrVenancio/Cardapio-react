@@ -1,0 +1,29 @@
+/* ItemCardapio.css */
+
+.container-item-cardapio {
+    display: flex;
+    width: 35rem;
+    padding: 1rem;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: -2px 2px 20px #002;
+  }
+  
+  .container-item-cardapio > img {
+    height: 11rem;
+  }
+  
+  .container-item-cardapio > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 60%;
+    flex-grow: 0;
+  }
+  
+  .container-item-cardapio > div > h2 {
+    font-weight: 600;
+  }
+  
+  /* Adicione estilos adicionais conforme necessário */
+  

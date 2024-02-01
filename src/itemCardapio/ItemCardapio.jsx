@@ -1,3 +1,6 @@
+import React from 'react';
+import './ItemCardapio.css'
+
 function ItemCardapio({ nome, descricao, preco, imagem }) {
   return (
     <div className="container-item-cardapio">

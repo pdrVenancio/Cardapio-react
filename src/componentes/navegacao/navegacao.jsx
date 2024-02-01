@@ -1,3 +1,6 @@
+import React from 'react';
+import './nav.css'
+
 function Navegacao({ alterarPaginaSelecionada }) {
   return (
     <div className="navegacao">
