@@ -6,16 +6,19 @@ function Navegacao({ alterarPaginaSelecionada }) {
     <div className="navegacao">
       <button
         className="botao-navegacao"
+        // Altera a variavel de estado
         onClick={() => alterarPaginaSelecionada(0)}>
         Pratos Principais
       </button>
       <button
         className="botao-navegacao"
+        // Altera a variavel de estado
         onClick={() => alterarPaginaSelecionada(1)}>
         Sobremesas
       </button>
       <button
         className="botao-navegacao"
+        // Altera a variavel de estado
         onClick={() => alterarPaginaSelecionada(2)}>
         Bebidas
       </button>

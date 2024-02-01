@@ -1,3 +1,4 @@
+// Salvo todas as img em variaveis
 import enroladinhoMignonImg from './assets/pratos/enroladinho-mignon.jpeg';
 import casal20Img from './assets/pratos/casal-20.jpeg';
 import burguerPicanhaImg from './assets/pratos/burguer-picanha.jpeg';
@@ -14,6 +15,7 @@ import cocaColaImg from './assets/bebidas/coca-cola.jpeg';
 import guaranaImg from './assets/bebidas/guarana.jpeg';
 import heinekenImg from './assets/bebidas/heineken.jpeg';
 
+// Crio e exporto Dicionarios com as informações de cada card
 export const enroladinhoMignon = {
   nome: 'Enroladinho de Mignon',
   preco: 'R$ 64,90',
