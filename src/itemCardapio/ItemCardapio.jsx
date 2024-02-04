@@ -6,8 +6,8 @@ function ItemCardapio({ nome, descricao, preco, imagem }) {
     <div className="container-item-cardapio">
       <div className="informacoes-item-cardapio">
         <h2>{nome}</h2>
-        <p>{descricao}</p>
-        <p>{preco}</p>
+        <p className='descricao'>{descricao}</p>
+        <p className='preco'>{preco}</p>
       </div>
       <img src={imagem} className="imagem-item-cardapio" />
     </div>

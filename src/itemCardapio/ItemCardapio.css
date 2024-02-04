@@ -1,29 +1,41 @@
 /* ItemCardapio.css */
 
 .container-item-cardapio {
-    display: flex;
-    width: 35rem;
-    padding: 1rem;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    box-shadow: -2px 2px 20px #002;
-  }
+  display: flex;
+  width: 35rem;
+  padding: 1rem;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: -2px 2px 20px rgb(85, 3, 3);
+  background-color: rgb(204, 164, 164);
+}
+
+.container-item-cardapio > img {
+  height: 11rem;
+  border-radius: 10px;
+}
+
+.container-item-cardapio > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-basis: 60%;
+  flex-grow: 0;
+}
+
+.container-item-cardapio > div > h2 {
+  font-weight: 600;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(85, 3, 3);
+}
+
+.informacoes-item-cardapio .descricao{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: left;
+}
   
-  .container-item-cardapio > img {
-    height: 11rem;
-  }
-  
-  .container-item-cardapio > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-basis: 60%;
-    flex-grow: 0;
-  }
-  
-  .container-item-cardapio > div > h2 {
-    font-weight: 600;
-  }
-  
-  /* Adicione estilos adicionais conforme necessário */
+.informacoes-item-cardapio .preco{
+  font-weight: 600;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
   
